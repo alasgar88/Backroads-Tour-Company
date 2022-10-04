@@ -518,8 +518,53 @@ Gallery
 }
 }
 
+
 /*
 =============== 
 Footer
 ===============
 */
+
+.footer{
+  background: var(--clr-grey-1);
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-links,.footer-icons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom:1.5rem ;
+}
+
+.footer-link{
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.footer-link:hover{
+  color: var(--clr-primary-5);
+}
+
+.footer-icon{
+font-size: 2rem;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+color: var(--clr-white);
+transition: var(--transition);
+}
+
+.footer-icon:hover{
+  color: var(--clr-primary-5);
+}
+
+.copyright{
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: white;
+}
